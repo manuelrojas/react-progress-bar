@@ -11,7 +11,7 @@
     "react-scripts": "1.1.1"
   },
   "lint-staged": {
-   "src/**/*.{js,jsx,json,css}": [
+   "src/*.{js,jsx,json,css}": [
      "prettier --single-quote --no-semi --trailing-comma es5 --print-width 80 --write",
      "git add"
    ]
