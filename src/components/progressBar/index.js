@@ -30,10 +30,15 @@ const Wrapper = styled.section`
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
+
+  @media (max-width: 500px) {
+      padding: 4em 2em;
+ }
 `
 
 const Label = styled.span`
   color: #FFF;
+
 `
 
 const FullBar = styled.div`
@@ -45,6 +50,12 @@ const FullBar = styled.div`
   left: 120px;
   z-index: 1;
   box-shadow: inset 0px 1px 2px ${props => props.theme.shadow};
+
+  @media (max-width: 500px) {
+   flex-direction: column;
+   top: 30%;
+   width: 45%;
+  }
 `
 
 const Progress = styled.div`
