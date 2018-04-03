@@ -21,8 +21,9 @@ const animatedGrow = ()=> {
 const Wrapper = styled.section`
   height: 8em;
   padding: 3em 2em;
+  max-width: 40em;
   background: ${props => props.theme.main};
-  margin: 2em;
+  margin: 2em auto;
   border-radius: 10px;
   position: relative;
   display: flex;
